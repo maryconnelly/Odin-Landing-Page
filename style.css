@@ -44,7 +44,6 @@ a {
 .one {
 display: flex;
 flex-direction: row;
-height: 400px;
 
 }
 
@@ -61,7 +60,7 @@ height: 400px;
 
 h1 {
     font-size: 48px;
-    margin: 0px;
+    padding-bottom: 0px;
 }
 
 button {
@@ -75,7 +74,7 @@ button {
 
 }
 
-.pic-container {
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +82,7 @@ button {
     flex: 1;
 }
 
-.pic-one {
+.one-image {
     display: flex;
     width: 400px;
     height: 250px;
@@ -94,15 +93,15 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    background-color: #FDF0D5;
 }
 
-.section-two-container {
+.two-container {
     display: flex;
     flex-direction: row;
 }
 
-.section-two-image {
+.two-image {
     display: flex;
     flex-direction: column;
     width: 200px;
