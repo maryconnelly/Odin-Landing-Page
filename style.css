@@ -55,8 +55,11 @@ button {
     background-color: #3882f6;
     color: white;
     padding: 5px;
-    border-style: none;
 
+}
+
+.button.first {
+    border-style: none;
 }
 
 .pic-container {
@@ -83,12 +86,92 @@ button {
 .section-two-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
 }
 
 .section-two-image {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 200px;
+    height: 500px;
+    padding: 20px;  
+
+}
+
+img {
+    border-radius: 5px;;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    width: 100%;
+    align-items: center;
+    
+}
+.quote-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    text-emphasis: italic;
+    color: #1f2937
+    
+}
+
+.source-container {
+display: flex;
+justify-content: flex-end;
+width: 400px;
+
+}
+
+.source {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 24px;
+}
+
+.section-four {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.call-container {
+    display: flex;
+    background-color: #3882f6;
     height: 100px;
+    width: 800px;
+    margin: 100px;
+    border-radius: 3px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.call-text {
+    color: white;
+}
+
+.button.last {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+
+}
+
+
+.footer {
+
 }
