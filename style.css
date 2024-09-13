@@ -4,20 +4,24 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    background-color: #1F2937;
+    background-color: #A54657;
     color: white;
     align-items: center;
     justify-content: space-between;
     padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
 }
 .logo {
-    padding-left: 100px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 ul {
@@ -25,6 +29,7 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     gap: 30px; 
+    font-size: 24px;
 }
 
 li {
@@ -34,52 +39,55 @@ a {
     text-decoration: none;
 }
 
-.section-one {
+/* break */
+
+.one {
 display: flex;
 flex-direction: row;
+height: 400px;
 
 }
 
-.section-one-info {
+.introduction {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #A54657;
     color: white;
     padding-left: 100px;
     padding-top: 100px;
 }
 
 button {
-    width: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 8px;
     background-color: #3882f6;
     color: white;
     padding: 5px;
-
-}
-
-.button.first {
+    font-size: 28px;
     border-style: none;
+
 }
 
 .pic-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #A54657;
     flex: 1;
 }
 
-.section-one-pic {
+.pic-one {
     display: flex;
     width: 400px;
-    padding: 100px;
+    height: 250px;
 }
 
-.section-two {
+.two {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 400px;
 }
 
 .section-two-container {
@@ -109,6 +117,7 @@ img {
     flex-direction: column;
     background-color: #E5E7EB;
     width: 100%;
+    height: 400px;
     align-items: center;
     
 }
@@ -182,5 +191,4 @@ font-weight: bold;
 }
 
 .section {
-height: 20%;
-}
+height: 500px}
