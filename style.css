@@ -55,16 +55,22 @@ height: 400px;
     color: white;
     padding-left: 100px;
     padding-top: 100px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0px;
 }
 
 button {
     width: 50px;
     height: 50px;
     border-radius: 8px;
-    background-color: #3882f6;
+    background-color: #A54657;
     color: white;
-    padding: 5px;
-    font-size: 28px;
+    font-size: 48px;
     border-style: none;
 
 }
@@ -81,6 +87,7 @@ button {
     display: flex;
     width: 400px;
     height: 250px;
+    padding-right: 100px;
 }
 
 .two {
